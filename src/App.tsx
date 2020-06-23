@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   CssBaseline,
   MuiThemeProvider,
@@ -6,11 +6,11 @@ import {
   Card,
   CardContent,
   Typography,
-} from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
+} from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 
-import theme from "./theme";
-import { Editor, Node } from "./editor";
+import Theme from './theme';
+import { Editor, Node } from './editor';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -27,8 +27,8 @@ const useStyles = makeStyles(theme => ({
 
 const initialValue: Node[] = [
   {
-    type: "paragraph",
-    children: [{ text: "" }],
+    type: 'paragraph',
+    children: [{ text: '' }],
   },
 ];
 
@@ -37,7 +37,7 @@ export function App() {
   const s = useStyles();
 
   return (
-    <MuiThemeProvider theme={theme}>
+    <MuiThemeProvider theme={Theme}>
       <CssBaseline />
       <Container className={s.root} maxWidth="sm">
         <Typography className={s.title} component="h1" variant="h5">

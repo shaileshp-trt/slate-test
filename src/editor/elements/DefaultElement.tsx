@@ -1,5 +1,5 @@
-import React from "react";
-import { Typography, TypographyProps } from "@material-ui/core";
+import React from 'react';
+import { Typography, TypographyProps } from '@material-ui/core';
 
 export const DefaultElement = React.forwardRef(function DefaultElement(
   props: TypographyProps,

@@ -1,1 +1,1 @@
-export * from "./DefaultElement";
+export * from './DefaultElement';

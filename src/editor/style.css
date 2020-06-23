@@ -1,0 +1,48 @@
+.toolbar{
+  padding: 8px 7px 6px;
+  position: absolute;
+  z-index: 1;
+  top: 145px;
+  left: -10000px;
+  margin-top: -6px;
+  opacity: 0;
+  background-color: #222;
+  border-radius: 4px;
+  transition: opacity 0.75s;
+}
+
+code {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  color: #666;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote span{
+  display: inline;
+}

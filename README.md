@@ -13,6 +13,14 @@ In this sandbox we've provided you with all the boilerplate necessary for you to
 
 Our team values strong communication, critical thinking, and intellectual curiosity. We will be reviewing how you organize your code, how you prioritize decisions based on the requirements, and how you can apply your software engineering experience to develop creative solutions that showcase your skills.
 
+## How to run project
+1. install node version 12
+2. them navigate to this project directory
+3. use command npm install
+4. npm start
+In browser project will run on http://localhost:3000
+
+
 ## Help
 
 Please reach out to [vlad@eventloop.ai](mailto:vlad@eventloop.ai) if you have any questions!
